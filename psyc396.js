@@ -1,6 +1,7 @@
 
 jsPsych.plugins['ABX'] = (function(){
 
+  //example of new plugin copied from jspych's website 
   var plugin = {};
 
   plugin.info = {
