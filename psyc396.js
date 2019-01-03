@@ -11,13 +11,14 @@ jsPsych.plugins['ABX'] = (function(){
   }
 
   plugin.trial = function(display_element, trial){
+    var html_content = '<p>This is the first paragraph</p>';
+    html_content += '<p>This is the second paragraph</p>';
+
+    display_element.innerHTML = html_content;
     jsPsych.finishTrial();
   }
 
-  var html_content = '<p>This is the first paragraph</p>';
-  html_content += '<p>This is the second paragraph</p>';
-
-  display_element.innerHTML = html_content;
+  
 
 
   return plugin;
