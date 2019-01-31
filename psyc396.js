@@ -41,7 +41,7 @@ timeline.push(instruction1);
 
 var instructionPracticeAbx = {
   type: "html-keyboard-response",
-  stimulus: "First, let's start with a pratice run. The following trials are only there for you to get accustomed to the task. Their results are not compiled.  "+
+  stimulus: "First, let's start with a practice run. The following trials are only there for you to get accustomed to the task. Their results are not compiled.  "+
   "<p>Press any key to continue.</p>",
   post_trial_gap: 500
 };
