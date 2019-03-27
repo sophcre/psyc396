@@ -432,7 +432,7 @@ function choosing_stim(list, x){ //returns an array of x elements chosen randoml
 };
 
  //4 blocks of categorization trials
-var choosing = choosing_stim(categorization_stimuli,50);
+var choosing = choosing_stim(categorization_stimuli,100);
 var stimCat1 = choosing.stimuli;
 var remainingStim = choosing.shuffledList;
 var categorization_procedure1 = {
@@ -441,7 +441,7 @@ var categorization_procedure1 = {
   randomize_order: true,
   repetitions: 1,
 };
-choosing = choosing_stim(remainingStim,50);
+choosing = choosing_stim(remainingStim,100);
 stimCat2 = choosing.stimuli;
 remainingStim = choosing.shuffledList;
 var categorization_procedure2 = {
@@ -450,7 +450,7 @@ var categorization_procedure2 = {
   randomize_order: true,
   repetitions: 1,
 };
-choosing = choosing_stim(remainingStim,50);
+choosing = choosing_stim(remainingStim,100);
 stimCat3 = choosing.stimuli;
 remainingStim = choosing.shuffledList;
 var categorization_procedure3 = {
@@ -459,7 +459,7 @@ var categorization_procedure3 = {
   randomize_order: true,
   repetitions: 1,
 };
-choosing = choosing_stim(remainingStim,50);
+choosing = choosing_stim(remainingStim,100);
 stimCat4 = choosing.stimuli;
 remainingStim = choosing.shuffledList;
 var categorization_procedure4 = {
